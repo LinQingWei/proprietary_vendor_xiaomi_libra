@@ -42,47 +42,47 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/bin/tftp_server:$(VENDOR_PATH)/bin/tftp_server \
     vendor/xiaomi/libra/proprietary/vendor/bin/time_daemon:$(VENDOR_PATH)/bin/time_daemon \
     vendor/xiaomi/libra/proprietary/vendor/bin/wcnss_filter:$(VENDOR_PATH)/bin/wcnss_filter \
-    vendor/xiaomi/libra/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/xiaomi/libra/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/xiaomi/libra/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/xiaomi/libra/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
-    vendor/xiaomi/libra/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/xiaomi/libra/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/xiaomi/libra/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/xiaomi/libra/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/libra/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/libra/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/xiaomi/libra/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/xiaomi/libra/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/xiaomi/libra/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/libra/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/xiaomi/libra/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/xiaomi/libra/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/xiaomi/libra/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/xiaomi/libra/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/xiaomi/libra/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/xiaomi/libra/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/xiaomi/libra/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/xiaomi/libra/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/xiaomi/libra/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/xiaomi/libra/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/xiaomi/libra/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/xiaomi/libra/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/xiaomi/libra/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/xiaomi/libra/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/xiaomi/libra/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/xiaomi/libra/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/xiaomi/libra/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
+    vendor/xiaomi/libra/proprietary/vendor/etc/data/dsi_config.xml:$(VENDOR_PATH)/etc/data/dsi_config.xml \
+    vendor/xiaomi/libra/proprietary/vendor/etc/data/netmgr_config.xml:$(VENDOR_PATH)/etc/data/netmgr_config.xml \
+    vendor/xiaomi/libra/proprietary/vendor/etc/data/qmi_config.xml:$(VENDOR_PATH)/etc/data/qmi_config.xml \
+    vendor/xiaomi/libra/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:$(VENDOR_PATH)/etc/drc/drc_cfg_5.1.txt \
+    vendor/xiaomi/libra/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:$(VENDOR_PATH)/etc/drc/drc_cfg_AZ.txt \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/a420_pfp.fw:$(VENDOR_PATH)/firmware//a420_pfp.fw \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/a420_pm4.fw:$(VENDOR_PATH)/firmware//a420_pm4.fw \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:$(VENDOR_PATH)/firmware//cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:$(VENDOR_PATH)/firmware//cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:$(VENDOR_PATH)/firmware//cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_4_0.fw:$(VENDOR_PATH)/firmware//cpp_firmware_v1_4_0.fw \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_6_0.fw:$(VENDOR_PATH)/firmware//cpp_firmware_v1_6_0.fw \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_8_0.fw:$(VENDOR_PATH)/firmware//cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv.bin:$(VENDOR_PATH)/firmware//nvm_tlv.bin \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv_1.3.bin:$(VENDOR_PATH)/firmware//nvm_tlv_1.3.bin \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv_2.1.bin:$(VENDOR_PATH)/firmware//nvm_tlv_2.1.bin \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv_3.0.bin:$(VENDOR_PATH)/firmware//nvm_tlv_3.0.bin \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv_3.2.bin:$(VENDOR_PATH)/firmware//nvm_tlv_3.2.bin \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv.img:$(VENDOR_PATH)/firmware//rampatch_tlv.img \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv_1.3.tlv:$(VENDOR_PATH)/firmware//rampatch_tlv_1.3.tlv \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv_2.1.tlv:$(VENDOR_PATH)/firmware//rampatch_tlv_2.1.tlv \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv_3.0.tlv:$(VENDOR_PATH)/firmware//rampatch_tlv_3.0.tlv \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv_3.2.tlv:$(VENDOR_PATH)/firmware//rampatch_tlv_3.2.tlv \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b00:$(VENDOR_PATH)/firmware//venus.b00 \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b01:$(VENDOR_PATH)/firmware//venus.b01 \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b02:$(VENDOR_PATH)/firmware//venus.b02 \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b03:$(VENDOR_PATH)/firmware//venus.b03 \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b04:$(VENDOR_PATH)/firmware//venus.b04 \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.mbn:$(VENDOR_PATH)/firmware//venus.mbn \
+    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.mdt:$(VENDOR_PATH)/firmware//venus.mdt \
+    vendor/xiaomi/libra/proprietary/vendor/etc/modem/Diag.cfg:$(VENDOR_PATH)/etc/modem/Diag.cfg \
     vendor/xiaomi/libra/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:$(VENDOR_PATH)/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qcnvitems.xml:$(VENDOR_PATH)/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qcrilhook.xml:$(VENDOR_PATH)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qti_permissions.xml:$(VENDOR_PATH)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qti_telephony_common.xml:$(VENDOR_PATH)/etc/permissions/qti_telephony_common.xml \
-    vendor/xiaomi/libra/proprietary/etc/sensor_diag.cfg:system/etc/sensor_diag.cfg \
-    vendor/xiaomi/libra/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
-    vendor/xiaomi/libra/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/xiaomi/libra/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
-    vendor/xiaomi/libra/proprietary/etc/wifibt_diag.cfg:system/etc/wifibt_diag.cfg \
+    vendor/xiaomi/libra/proprietary/vendor/etc/sensor_diag.cfg:$(VENDOR_PATH)/etc/sensor_diag.cfg \
+    vendor/xiaomi/libra/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:$(VENDOR_PATH)/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
+    vendor/xiaomi/libra/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:$(VENDOR_PATH)/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/xiaomi/libra/proprietary/vendor/etc/thermal-engine-8992.conf:$(VENDOR_PATH)/etc/thermal-engine-8992.conf \
+    vendor/xiaomi/libra/proprietary/vendor/etc/wifibt_diag.cfg:$(VENDOR_PATH)/etc/wifibt_diag.cfg \
     vendor/xiaomi/libra/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:$(VENDOR_PATH)/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/xiaomi/libra/proprietary/vendor/framework/com.quicinc.cne.jar:$(VENDOR_PATH)/framework/com.quicinc.cne.jar \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/activity_recognition.msm8994.so:$(VENDOR_PATH)/lib/hw/activity_recognition.msm8994.so \
