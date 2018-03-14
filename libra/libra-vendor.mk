@@ -47,31 +47,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/etc/data/qmi_config.xml:$(VENDOR_PATH)/etc/data/qmi_config.xml \
     vendor/xiaomi/libra/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:$(VENDOR_PATH)/etc/drc/drc_cfg_5.1.txt \
     vendor/xiaomi/libra/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:$(VENDOR_PATH)/etc/drc/drc_cfg_AZ.txt \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/a420_pfp.fw:$(VENDOR_PATH)/firmware/a420_pfp.fw \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/a420_pm4.fw:$(VENDOR_PATH)/firmware/a420_pm4.fw \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_4_0.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_6_0.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/cpp_firmware_v1_8_0.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv.bin:$(VENDOR_PATH)/firmware/nvm_tlv.bin \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv_1.3.bin:$(VENDOR_PATH)/firmware/nvm_tlv_1.3.bin \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv_2.1.bin:$(VENDOR_PATH)/firmware/nvm_tlv_2.1.bin \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv_3.0.bin:$(VENDOR_PATH)/firmware/nvm_tlv_3.0.bin \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/nvm_tlv_3.2.bin:$(VENDOR_PATH)/firmware/nvm_tlv_3.2.bin \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv.img:$(VENDOR_PATH)/firmware/rampatch_tlv.img \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv_1.3.tlv:$(VENDOR_PATH)/firmware/rampatch_tlv_1.3.tlv \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv_2.1.tlv:$(VENDOR_PATH)/firmware/rampatch_tlv_2.1.tlv \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv_3.0.tlv:$(VENDOR_PATH)/firmware/rampatch_tlv_3.0.tlv \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/rampatch_tlv_3.2.tlv:$(VENDOR_PATH)/firmware/rampatch_tlv_3.2.tlv \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b00:$(VENDOR_PATH)/firmware/venus.b00 \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b01:$(VENDOR_PATH)/firmware/venus.b01 \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b02:$(VENDOR_PATH)/firmware/venus.b02 \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b03:$(VENDOR_PATH)/firmware/venus.b03 \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.b04:$(VENDOR_PATH)/firmware/venus.b04 \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.mbn:$(VENDOR_PATH)/firmware/venus.mbn \
-    vendor/xiaomi/libra/proprietary/vendor/etc/firmware/venus.mdt:$(VENDOR_PATH)/firmware/venus.mdt \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/a420_pfp.fw:$(VENDOR_PATH)/firmware/a420_pfp.fw \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/a420_pm4.fw:$(VENDOR_PATH)/firmware/a420_pm4.fw \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(VENDOR_PATH)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/nvm_tlv.bin:$(VENDOR_PATH)/firmware/nvm_tlv.bin \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/nvm_tlv_1.3.bin:$(VENDOR_PATH)/firmware/nvm_tlv_1.3.bin \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/nvm_tlv_2.1.bin:$(VENDOR_PATH)/firmware/nvm_tlv_2.1.bin \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/nvm_tlv_3.0.bin:$(VENDOR_PATH)/firmware/nvm_tlv_3.0.bin \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/nvm_tlv_3.2.bin:$(VENDOR_PATH)/firmware/nvm_tlv_3.2.bin \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/rampatch_tlv.img:$(VENDOR_PATH)/firmware/rampatch_tlv.img \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:$(VENDOR_PATH)/firmware/rampatch_tlv_1.3.tlv \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:$(VENDOR_PATH)/firmware/rampatch_tlv_2.1.tlv \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:$(VENDOR_PATH)/firmware/rampatch_tlv_3.0.tlv \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:$(VENDOR_PATH)/firmware/rampatch_tlv_3.2.tlv \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/venus.b00:$(VENDOR_PATH)/firmware/venus.b00 \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/venus.b01:$(VENDOR_PATH)/firmware/venus.b01 \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/venus.b02:$(VENDOR_PATH)/firmware/venus.b02 \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/venus.b03:$(VENDOR_PATH)/firmware/venus.b03 \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/venus.b04:$(VENDOR_PATH)/firmware/venus.b04 \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/venus.mbn:$(VENDOR_PATH)/firmware/venus.mbn \
+    vendor/xiaomi/libra/proprietary/vendor/firmware/venus.mdt:$(VENDOR_PATH)/firmware/venus.mdt \
     vendor/xiaomi/libra/proprietary/vendor/etc/modem/Diag.cfg:$(VENDOR_PATH)/etc/modem/Diag.cfg \
     vendor/xiaomi/libra/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:$(VENDOR_PATH)/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/libra/proprietary/vendor/etc/permissions/qcnvitems.xml:$(VENDOR_PATH)/etc/permissions/qcnvitems.xml \
